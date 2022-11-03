@@ -9,5 +9,11 @@ public class MySqlCustomerDal /*extends OracleCustomerDal*/ implements ICustomer
 		
 	}
 	
+	@Override
+	public void delete() {
+		
+	}
+
+	
 
 }
