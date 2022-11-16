@@ -11,7 +11,6 @@ public class Main {
             int o =5;
             System.out.println("Merhaba"+ o);
 
-
     }
 
 }
