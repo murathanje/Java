@@ -1,8 +1,8 @@
 public class Employee {
     
-    public int id;
+    int id;
     private String name;
-    public int ssn;
+    int ssn;
     private CompanyName cName;
 
     public Employee(int _id, String _name, int _ssn, CompanyName _cName){
