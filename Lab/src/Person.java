@@ -1,5 +1,5 @@
 public class Person {
-    private static int id;
+    public static int id;
     private String firstNAme;
     private String lastName;
     private int age;
@@ -10,6 +10,10 @@ public class Person {
         this.lastName = _lastName;
         this.age = _age;
 
+    }
+
+    public String getFirstName(){
+        return this.firstNAme;
     }
 
     public Person(String _firstName, String _lastNAme){
