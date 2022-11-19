@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        Person person = new Person(1,"Murathan", "Kagan", 20 );
+        Person person = new Person("Murathan", "Kagan");
         System.out.println(person.toString());
         Person person1 = new Person("Emre", "Şimşek");
         System.out.println(person1.toString());

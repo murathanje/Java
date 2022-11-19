@@ -13,11 +13,12 @@ public class Person {
     }
 
     public Person(String _firstName, String _lastNAme){
-       this(++Person.id, _firstName, _lastNAme, 0); 
+        this(++Person.id, _firstName, _lastNAme, 0); 
+        age = 22;
     }
 
     public Person(int _id){
-        this(_id, "", "", 0);
+        this(_id, "","",0);
 
     }
     
