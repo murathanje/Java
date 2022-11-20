@@ -8,9 +8,13 @@ class OuterClas{
 }
 
 public class App {
-    public static void main(String[] args) throws Exception {
-        OuterClas myInner = new OuterClas();
-        System.out.println(myInner.x);
+    public static void main(String[] args){
+        
+        OuterClas outerClas = new OuterClas();
+        System.out.println(outerClas.x);
+
+        OuterClas.InnerClass myInner = new OuterClas.InnerClass();
+        System.out.println(myInner.y);
 
     }
 }
