@@ -4,7 +4,7 @@ public class App {
         Branch branchs = Branch.PHYSICS;
 
      
-            System.out.println(branchs.getFieldId());
+            System.out.println(branchs.fieldId);
         
     }
 }

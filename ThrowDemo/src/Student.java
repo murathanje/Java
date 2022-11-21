@@ -27,6 +27,11 @@ public class Student {
     }
 
 
+    public char[] getAvarage() {
+        return null;
+    }
+
+
 
 
 }

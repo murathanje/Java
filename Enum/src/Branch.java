@@ -4,14 +4,14 @@ public enum Branch {
     PHYSICS(24),
     GEOMETY(3); // semicolon needed when fields / methods follow
 
-    private int fieldId;
+    public int fieldId;
 
     Branch(int _fieldId) {
 
         this.fieldId = _fieldId;
     }
 
-    public int getFieldId(){
-        return fieldId;
-    }
+    // public int getFieldId(){
+    //     return fieldId;
+    // }
 }

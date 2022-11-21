@@ -2,7 +2,7 @@ public class Patient {
     private int id;
     static int counter;
     private String name;
-    private float temperature = 36.5;
+    private float temperature = 36.5f;
     public static final String doctor = "Jone";
 
     public patient(String name, double temp,String doctor){ 
@@ -35,9 +35,9 @@ public class Patient {
  * 23 getId den önce veri tipi belirlenmemiş
  * 16 this.doctor static olduğu için Patient.doctor olmalı
  * 5 veri tipi double olmalı
- * 30 toString Override değil
  * 12 Double olmalı
  * 3 staticten önce private olmalı
+ * 1 Public olmamalı
  * 
  * public class Patient {
  * private int id;

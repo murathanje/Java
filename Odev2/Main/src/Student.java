@@ -1,4 +1,4 @@
-public class Student {
+class Student {
     private int midTerm;
     private int finalExam;
 
