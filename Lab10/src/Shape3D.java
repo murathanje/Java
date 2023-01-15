@@ -12,9 +12,7 @@ public abstract class Shape3D extends Shape2D{
     }
 
 
-    public double getVolume(){
-        return super.getArea()*height;
-    }
+    public abstract double getVolume();
 
     public String toString(){
         return ("Volume is: " + getVolume());

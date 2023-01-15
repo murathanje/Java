@@ -5,11 +5,11 @@ public class Cone extends Shape3D{
     }
 
     public double getVolume() {
-        return super.getArea() / 3 * height;
+        return PI * radius * radius / 3 * height;
     }
 
     public double getArea() {
-        return super.getArea() * PI * 2 * radius * (Math.pow((Math.pow(height, 2)) + Math.pow(radius, 2),1/2));
+        return PI * radius * radius * PI * 2 * radius * (Math.pow((Math.pow(height, 2)) + Math.pow(radius, 2),1/2));
     }
     
 }

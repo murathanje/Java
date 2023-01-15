@@ -5,7 +5,7 @@ public class Circle extends Shape2D {
     }
 
     public double getArea(){
-        return super.getArea();
+        return PI * radius * radius;
     }
 
 }

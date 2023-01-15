@@ -5,10 +5,10 @@ public class Cylinder extends Shape3D{
     }
     
     public double getVolume(){
-        return super.getVolume();
+        return PI * radius * radius * height;
     }
 
     public double getArea(){
-        return super.getArea()*2/radius*(height+radius);
+        return PI * radius * radius*2/radius*(height+radius);
     }
 }

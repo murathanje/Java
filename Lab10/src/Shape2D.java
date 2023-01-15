@@ -15,9 +15,7 @@ public abstract class Shape2D {
     }
 
 
-    public double getArea(){
-        return (PI*radius*radius);
-    }
+    public abstract double getArea();
 
     public String toString(){
         return ("Area is: " + getArea());

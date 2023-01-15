@@ -5,11 +5,11 @@ public class Sphere extends Shape3D {
     }
 
     public double getVolume() {
-        return super.getArea() * 4/3 * radius;
+        return PI * radius * radius * 4/3 * radius;
     }
 
     public double getArea() {
-        return super.getArea() * 4/3;
+        return PI * radius * radius * 4/3;
     }
     
 }
